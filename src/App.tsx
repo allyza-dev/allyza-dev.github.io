@@ -7,11 +7,9 @@ import WorkHistory from './pages/WorkHistory'
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
-    <Route path='/' element={<RootLayout />}>
+    <Route path='portfolio' element={<RootLayout />}>
       <Route index element={<Portfolio />} />
-      <Route path='work-history' element={<WorkHistory />} />
-      {/* <Route path='projects' element={<Portfolio />} /> */}
-     
+      <Route path='work-history' element={<WorkHistory />} />     
     </Route>
   ))
 
