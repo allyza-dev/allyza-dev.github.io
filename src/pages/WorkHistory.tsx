@@ -13,7 +13,7 @@ export default function WorkHistory() {
             <div className="work-history-item-details">
               <h2 className="text-orange">Fresh Clinics (AU)</h2>
               <p>MID LEVEL SOFTWARE ENGINEER</p>
-              <p>REMOTE | AUGUST 2022 - JULY 2025</p>
+              <p>REMOTE | OCTOBER 2022 - JULY 2025</p>
               <div className="work-history-item-skills">
                 <VueJSIcon size={20} />
                 <JavaScriptIcon size={20} />
